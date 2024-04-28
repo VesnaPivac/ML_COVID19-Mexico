@@ -1,0 +1,4 @@
+[core]
+    remote = dagshub
+['remote "dagshub"']
+    url = https://github.com/VesnaPivac/ML_COVID19-Mexico.git
