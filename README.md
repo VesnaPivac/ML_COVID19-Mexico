@@ -8,6 +8,14 @@ Este proyecto forma parte de la materia de Machine Learning de la Maestría en C
 - Luis Ortiz
 - Vesna Pivac
 
+## Problema a abordar
+- ¿Que problema se plantea resolver? En términos que todo mundo entienda.
+- ¿Porqué es un problema importante para la institución/organización/empresa?
+- ¿Cuales son las métricas para medir el impacto de la solución una vez obtenida?
+- ¿Que problema de aprendizaje implica resolver? Si es clasificación, especificar cuales serían las clases.
+- ¿Qué metricas permiten medir la calidad del modelo de aprendizaje? ¿Cuales son sus valores deseables?
+- ¿Como están alineadas las métricas de la calidad del modelo con las métricas de impacto de la solución? De preferencia tratar de cuantificar.
+
 
 ## Instructions
 1. Clone the repo.
