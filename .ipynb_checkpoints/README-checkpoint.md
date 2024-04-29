@@ -48,6 +48,11 @@ Este proyecto forma parte de la materia de Machine Learning de la Maestría en C
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    │   ├── processed      <- Data dictionaries, manuals, and all other explanatory materials of processed data
+    │   └── raw            <- Data dictionaries, manuals, and all other explanatory materials of raw data
+    │       ├── Catalogos.xlsx      <- Raw Data catalog
+    │       ├── Diccionario.xlsx    <- Raw Data dictionary
+    │       └── Actualizaciones en la presentación de información referente a casos de COVID.pdf <- Info of raw data
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │   └── metrics.txt    <- Relevant metrics after evaluating the model.
