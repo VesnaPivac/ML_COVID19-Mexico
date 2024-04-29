@@ -22,7 +22,12 @@ La información es publicada por el Sistema de Vigilancia Epidemiológica de Enf
 Cómo podemos fácilmente deducir, es un problema bastante valioso para el sistema de salud nacional. Puede funcionar cómo una especie de semáforo de riesgo. La limitada asistencia médica disponible, sería más eficiente al distribuir sus esfuerzos. Prestando especial atención a pacientes con mayor riesgo de fallecimiento. 
 De ninguna manera esperamos reemplazar una evaluación y opinión experta de un médico tratante. Esperamos construir una herramienta que sirva de apoyo y/o complemento para la evaluación médica profesional. 
 
-Las métrica principal que se pretende afectar es la del número de fallecimientos en el país. Esperamos que con una atención más certera y a tiempo, se puedan evitar fallecimientos. La naturaleza del proyecto hace que sea difícil la evaluación: Un diagnóstico correcto (alta probabilidad de fallecimiento), dispararía especial atención al paciente, lo cuál esperamos que pueda evitar tal fallecimiento. Por lo que una predicción exitosa de nuestra parte (un paciente con alta probabilidad de muerte), preferiblemente dispararía atención especial, que en caso de tener éxito, evitaría tal fallecimiento. 
+
+La exactitud de la predicción se evaluará usando el F1-Score. 
+Las métrica principal del proyecto que se pretende afectar es la predicción certera del contagio de COVID-19. Esperamos que con una atención más certera y a tiempo, se puedan evitar complicaciones. La naturaleza del proyecto hace que sea difícil la evaluación: Un diagnóstico correcto (alta probabilidad de contagio), dispararía especial atención al paciente, lo cuál esperamos que pueda evitar mayores complicaciones. Por lo que una predicción exitosa de nuestra parte (un paciente con alta probabilidad de contagio), preferiblemente dispararía atención especial, que en caso de tener éxito, evitaría tales complicaciones. Haciendo así más difícil futuras predicciones.  
+
+
+
 
 
 
