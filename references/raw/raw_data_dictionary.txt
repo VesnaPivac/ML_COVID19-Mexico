@@ -1,0 +1,42 @@
+DATOS COVID-19 MEXICO
+-----------------------------------------------------------
+FECHA_ACTUALIZACION: Feha en la que se subieron los datos
+ID_REGISTRO:  ID de registro
+ORIGEN: {1: Hombre, 2: Mujer}
+SECTOR
+ENTIDAD_UM
+SEXO: {1: Hombre, 2: Mujer}
+ENTIDAD_NAC: Estado al que pertenece
+ENTIDAD_RES
+MUNICIPIO_RES: Municipio al que pertenece
+TIPO_PACIENTE
+FECHA_INGRESO: Fecha en la que ingreso el paciente
+FECHA_SINTOMAS: Fecha en la que se presentaron los sintomas
+FECHA_DEF: Fecha de defunción
+INTUBADO
+NEUMONIA: {1:Con neumonia,2:Sin neumonia,99:Desconocido}
+EDAD: Edad del paciente
+NACIONALIDAD: {1: Mexicana, 2:E}
+EMBARAZO: {1: No embarazada, 2: Embarazada}
+HABLA_LENGUA_INDIG: {1: Si habla lengua indigena, 2: No habla lengua indigena, 99:Desconocido}
+INDIGENA: {1: Indigena, 2: No indigena, 99:Desconocido}
+DIABETES: {1: Con diabetes, 2: Sin deabetes, 99:Desconocido}
+EPOC
+ASMA: {1: Con asma, 2: Sin asma, 99:Desconocido}
+INMUSUPR: {1: Si, 2: NO, 99:Desconocido}
+HIPERTENSION: {1: Con hipertension, 2: Sin hipertension, 99:Desconocido}
+OTRA_COM
+CARDIOVASCULAR: {1: Si, 2: NO, 99:Desconocido}
+OBESIDAD: {1: Con obesidad, 2: Sin obesidad, 99:Desconocido}
+RENAL_CRONICA: {1: Si, 2: NO, 99:Desconocido}
+TABAQUISMO: {1: Si, 2: NO, 99:Desconocido}
+OTRO_CASO
+TOMA_MUESTRA_LAB
+RESULTADO_LAB
+TOMA_MUESTRA_ANTIGENO
+RESULTADO_ANTIGENO
+CLASIFICACION_FINAL: {1:Caso COVID19 confimado por asosiación clínica epidemiológica,2:Caso COVID19 confirmado por comité de dictaminación,3:Caso SARS-COV-2 confirmado,4:Inválido por laboratorio,5:No realizado por laboratorio,6:Caso sospechoso,7:Negativo a SARS-COV-2}
+MIGRANTE
+PAIS_NACIONALIDAD: Nacionalidad del paciente
+PAIS_ORIGEN: Pais de origen
+UCI
