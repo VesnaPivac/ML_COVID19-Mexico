@@ -24,6 +24,11 @@ De ninguna manera esperamos reemplazar una evaluación y opinión experta de un 
 
 Las métrica principal que se pretende afectar es la del número de fallecimientos en el país. Esperamos que con una atención más certera y a tiempo, se puedan evitar fallecimientos. La naturaleza del proyecto hace que sea difícil la evaluación: Un diagnóstico correcto (alta probabilidad de fallecimiento), dispararía especial atención al paciente, lo cuál esperamos que pueda evitar tal fallecimiento. Por lo que una predicción exitosa de nuestra parte (un paciente con alta probabilidad de muerte), preferiblemente dispararía atención especial, que en caso de tener éxito, evitaría tal fallecimiento. 
 
+
+## Repositorios
+- [Github](https://github.com/VesnaPivac/ML_COVID19-Mexico)
+- [Dagshub](https://dagshub.com/VesnaPivac/ML_COVID19-Mexico)
+
 ## Instructions
 1. Clone the repo.
 2. Run `make dirs` to create the missing parts of the directory structure described below.
