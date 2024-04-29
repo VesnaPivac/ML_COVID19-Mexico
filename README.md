@@ -44,9 +44,6 @@ Este proyecto forma parte de la materia de Machine Learning de la Maestría en C
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │   ├── processed      <- Data dictionaries, manuals, and all other explanatory materials of processed data
     │       └── Diccionario.xlsx    <- Processed Data dictionary
