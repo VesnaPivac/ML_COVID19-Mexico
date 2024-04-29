@@ -1,7 +1,16 @@
 ML_COVID19-Mexico
 ==============================
+# Proyecto de Machine Learning con datos de COVID-19 México
 
+Este proyecto forma parte de la materia de Machine Learning de la Maestría en Ciencia de Datos de la Universidad de Sonora. Se utilizan los datos abiertos del gobierno de México sobre los casos de COVID-19. Estos datos pueden encontrarse en la siguiente liga: [Información sobre casos de COVID-19 en México](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico).
 
+## Integrantes del equipo
+
+- José Barreras
+- Luis Ortiz
+- Vesna Pivac
+
+=================================
 
 Instructions
 ------------
@@ -48,8 +57,11 @@ Project Organization
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
+    │   ├── features           <- Scripts to download or generate data
+    │   │   ├── build_features.ipynb  <- Notebook that cleans and processes raw data
+    │   │
     │   ├── data           <- Scripts to download or generate data
-    │   │   ├── great_expectations  <- Folder containing data integrity check files
+    │   │   ├── Descarga_de_datos.ipynb  <- Notebook that downloads raw data
     │   │   ├── make_dataset.py
     │   │   └── data_validation.py  <- Script to run data integrity checks
     │   │
