@@ -49,6 +49,7 @@ Este proyecto forma parte de la materia de Machine Learning de la Maestría en C
     │                         `1.0-jqp-initial-data-exploration`.
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │   ├── processed      <- Data dictionaries, manuals, and all other explanatory materials of processed data
+    │       └── Diccionario.xlsx    <- Processed Data dictionary
     │   └── raw            <- Data dictionaries, manuals, and all other explanatory materials of raw data
     │       ├── Catalogos.xlsx      <- Raw Data catalog
     │       ├── Diccionario.xlsx    <- Raw Data dictionary
