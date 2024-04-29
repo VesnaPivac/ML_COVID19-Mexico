@@ -1,5 +1,6 @@
 ML_COVID19-Mexico
 ==============================
+
 # Proyecto de Machine Learning con datos de COVID-19 México
 
 Este proyecto forma parte de la materia de Machine Learning de la Maestría en Ciencia de Datos de la Universidad de Sonora. Se utilizan los datos abiertos del gobierno de México sobre los casos de COVID-19. Estos datos pueden encontrarse en la siguiente liga: [Información sobre casos de COVID-19 en México](https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico).
@@ -10,10 +11,8 @@ Este proyecto forma parte de la materia de Machine Learning de la Maestría en C
 - Luis Ortiz
 - Vesna Pivac
 
-=================================
 
-Instructions
-------------
+## Instructions
 1. Clone the repo.
 2. Run `make dirs` to create the missing parts of the directory structure described below.
 3. *Optional:* Run `make virtualenv` to create a python virtual environment. Skip if using conda or some other env manager.
@@ -28,8 +27,7 @@ Instructions
 11. For **running** the data validation tests, run `make run-data-validation`
 12. When you're happy with the result, commit files (including .dvc files) to git.
 
-Project Organization
-------------
+## Project Organization
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make dirs` or `make clean`
