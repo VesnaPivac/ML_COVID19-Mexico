@@ -16,6 +16,18 @@ Este proyecto forma parte de la materia de Machine Learning de la Maestría en C
 - ¿Qué metricas permiten medir la calidad del modelo de aprendizaje? ¿Cuales son sus valores deseables?
 - ¿Como están alineadas las métricas de la calidad del modelo con las métricas de impacto de la solución? De preferencia tratar de cuantificar.
 
+Utilizando los datos abiertos publicados por el gobierno de México acerca de los casos de COVID-19 tratamos de analizar y predecir la posibilidad de fallecimiento de un paciente según la información disponible. 
+La información es publicada por el Sistema de Vigilancia Epidemiológica de Enfermedades Respiratoria Viral. Incluye información de cada paciente registrado. La información que resulta valiosa para nosotros es la sintomatología del paciente, que nos describe con certeza la situación biológica del individuo. Al compararlo con todos los registros, esperamos obtener la posibilidad de fallecimiento del afectado en cuestión. 
+
+Cómo podemos fácilmente deducir, es un problema bastante valioso para el sistema de salud nacional. Puede funcionar cómo una especie de semáforo de riesgo. La limitada asistencia médica disponible, sería más eficiente al distribuir sus esfuerzos. Prestando especial atención a pacientes con mayor riesgo de fallecimiento. 
+De ninguna manera esperamos reemplazar una evaluación y opinión experta de un médico tratante. Esperamos construir una herramienta que sirva de apoyo y/o complemento para la evaluación médica profesional. 
+
+Las métrica principal que se pretende afectar es la del número de fallecimientos en el país. Esperamos que con una atención más certera y a tiempo, se puedan evitar fallecimientos. La naturaleza del proyecto hace que sea difícil la evaluación: Un diagnóstico correcto (alta probabilidad de fallecimiento), dispararía especial atención al paciente, lo cuál esperamos que pueda evitar tal fallecimiento. Por lo que una predicción exitosa de nuestra parte (un paciente con alta probabilidad de muerte), preferiblemente dispararía atención especial, que en caso de tener éxito, evitaría tal fallecimiento. 
+
+
+## Repositorios
+- [Github](https://github.com/VesnaPivac/ML_COVID19-Mexico)
+- [Dagshub](https://dagshub.com/VesnaPivac/ML_COVID19-Mexico)
 
 ## Instructions
 1. Clone the repo.
@@ -44,11 +56,9 @@ Este proyecto forma parte de la materia de Machine Learning de la Maestría en C
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │   ├── processed      <- Data dictionaries, manuals, and all other explanatory materials of processed data
+    │       └── Diccionario.xlsx    <- Processed Data dictionary
     │   └── raw            <- Data dictionaries, manuals, and all other explanatory materials of raw data
     │       ├── Catalogos.xlsx      <- Raw Data catalog
     │       ├── Diccionario.xlsx    <- Raw Data dictionary

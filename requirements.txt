@@ -1,4 +1,8 @@
-# external requirements
-dvc==2.26.2
-pre-commit==2.20.0
-great_expectations==0.15.23
+jupyterlab==3.6.2
+matplotlib==3.7.1
+numpy==1.23.5
+openpyxl==3.1.2
+pandas==1.5.3
+plotly==5.9.0
+seaborn==0.12.2
+python==3.10.9
