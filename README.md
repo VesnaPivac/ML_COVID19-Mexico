@@ -113,6 +113,8 @@ El resto de las métricas de calidad del modelo (F1-Score, ROC-AUC, AUC-PR) est�
     │                         generated with `pip freeze > requirements.txt`
     │
     ├── setup.py           <- Makes project pip installable (pip install -e .) so src can be imported
+    ├── mlartifacts        <- Folder that stores the artifacts of each run within the experiment.
+    ├── mlruns             <- Folder that keeps record of each run and experiment
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
@@ -127,7 +129,8 @@ El resto de las métricas de calidad del modelo (F1-Score, ROC-AUC, AUC-PR) est�
     │   ├── models         <- Scripts to train models and then use trained models to make
     │   │   │                 predictions
     │   │   ├── predict_model.py
-    │   │   └── train_model.py
+    │   │   ├── Models_MLFLOW.ipynb  <- Notebook implementing MLFlow with various models
+    │   │   └── train_model.ipymb <- Notebook in which various models are implemented and the data are prepared for training 
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
