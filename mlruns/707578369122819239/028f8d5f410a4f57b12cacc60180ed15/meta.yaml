@@ -1,5 +1,5 @@
 artifact_uri: mlflow-artifacts:/707578369122819239/028f8d5f410a4f57b12cacc60180ed15/artifacts
-end_time: null
+end_time: 1716791357815
 entry_point_name: ''
 experiment_id: '707578369122819239'
 lifecycle_stage: active
@@ -10,6 +10,6 @@ source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1716786746065
-status: 1
+status: 4
 tags: []
 user_id: vesna
