@@ -128,8 +128,9 @@ El resto de las métricas de calidad del modelo (F1-Score, ROC-AUC, AUC-PR) est�
     │   │
     │   ├── models         <- Scripts to train models and then use trained models to make
     │   │   │                 predictions
+    |   │   ├── MLFLOW
+    |   |   |  └── Models_MLFLOW.ipynb  <- Notebook implementing MLFlow with various models
     │   │   ├── predict_model.py
-    │   │   ├── Models_MLFLOW.ipynb  <- Notebook implementing MLFlow with various models
     │   │   └── train_model.ipymb <- Notebook in which various models are implemented and the data are prepared for training 
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
