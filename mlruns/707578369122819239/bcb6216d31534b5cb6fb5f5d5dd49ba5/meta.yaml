@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/707578369122819239/bcb6216d31534b5cb6fb5f5d5dd49ba5/artifacts
+end_time: 1716450855953
+entry_point_name: ''
+experiment_id: '707578369122819239'
+lifecycle_stage: active
+run_id: bcb6216d31534b5cb6fb5f5d5dd49ba5
+run_name: Decision Tree_20240523
+run_uuid: bcb6216d31534b5cb6fb5f5d5dd49ba5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716450845921
+status: 3
+tags: []
+user_id: vesna

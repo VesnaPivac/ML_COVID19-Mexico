@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/707578369122819239/0a6ef9240c534b02ba7db50d7afa280a/artifacts
+end_time: 1716446936815
+entry_point_name: ''
+experiment_id: '707578369122819239'
+lifecycle_stage: active
+run_id: 0a6ef9240c534b02ba7db50d7afa280a
+run_name: fortunate-seal-939
+run_uuid: 0a6ef9240c534b02ba7db50d7afa280a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716446439031
+status: 3
+tags: []
+user_id: vesna

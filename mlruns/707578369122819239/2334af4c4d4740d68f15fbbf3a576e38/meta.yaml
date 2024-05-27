@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/707578369122819239/2334af4c4d4740d68f15fbbf3a576e38/artifacts
+end_time: 1716777381257
+entry_point_name: ''
+experiment_id: '707578369122819239'
+lifecycle_stage: active
+run_id: 2334af4c4d4740d68f15fbbf3a576e38
+run_name: Logistic Regression_20240523_1000ep_v2
+run_uuid: 2334af4c4d4740d68f15fbbf3a576e38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716777256572
+status: 4
+tags: []
+user_id: vesna
