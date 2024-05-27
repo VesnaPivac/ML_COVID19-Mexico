@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/707578369122819239/65e1193cd3e74752a2a79c13f5a1ca0e/artifacts
+end_time: 1716783230812
+entry_point_name: ''
+experiment_id: '707578369122819239'
+lifecycle_stage: active
+run_id: 65e1193cd3e74752a2a79c13f5a1ca0e
+run_name: GradientBoostingClassifier_Simple_20240526
+run_uuid: 65e1193cd3e74752a2a79c13f5a1ca0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716783030279
+status: 4
+tags: []
+user_id: vesna

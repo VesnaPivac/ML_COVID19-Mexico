@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/vesna/Documents/MCD/COVID19-PF/ML_COVID19-Mexico/src/models/MLFLOW/mlruns/0/6c7d28e2594845f6a71b61b332794e93/artifacts
+end_time: 1716779570668
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c7d28e2594845f6a71b61b332794e93
+run_name: Logistic Regression_20240523_1000ep_v3
+run_uuid: 6c7d28e2594845f6a71b61b332794e93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716779570627
+status: 4
+tags: []
+user_id: vesna
