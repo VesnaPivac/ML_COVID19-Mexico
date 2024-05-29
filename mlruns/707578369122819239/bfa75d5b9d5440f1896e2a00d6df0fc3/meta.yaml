@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/707578369122819239/bfa75d5b9d5440f1896e2a00d6df0fc3/artifacts
+deleted_time: 1716965958883
+end_time: null
+entry_point_name: ''
+experiment_id: '707578369122819239'
+lifecycle_stage: deleted
+run_id: bfa75d5b9d5440f1896e2a00d6df0fc3
+run_name: SVM_Simple_20240528_v4
+run_uuid: bfa75d5b9d5440f1896e2a00d6df0fc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716923799257
+status: 1
+tags: []
+user_id: vesna

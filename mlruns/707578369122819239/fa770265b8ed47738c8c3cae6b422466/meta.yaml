@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/707578369122819239/fa770265b8ed47738c8c3cae6b422466/artifacts
+deleted_time: 1716828192646
 end_time: null
 entry_point_name: ''
 experiment_id: '707578369122819239'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fa770265b8ed47738c8c3cae6b422466
 run_name: Decision Tree Grid Search with Learning Curve and ROC
 run_uuid: fa770265b8ed47738c8c3cae6b422466

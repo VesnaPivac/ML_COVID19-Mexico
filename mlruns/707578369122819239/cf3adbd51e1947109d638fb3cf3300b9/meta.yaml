@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/707578369122819239/cf3adbd51e1947109d638fb3cf3300b9/artifacts
+deleted_time: 1716966138926
+end_time: null
+entry_point_name: ''
+experiment_id: '707578369122819239'
+lifecycle_stage: deleted
+run_id: cf3adbd51e1947109d638fb3cf3300b9
+run_name: shivering-bee-923
+run_uuid: cf3adbd51e1947109d638fb3cf3300b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716966116915
+status: 1
+tags: []
+user_id: vesna

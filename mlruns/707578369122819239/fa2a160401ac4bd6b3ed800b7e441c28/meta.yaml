@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/707578369122819239/fa2a160401ac4bd6b3ed800b7e441c28/artifacts
+end_time: 1717012329997
+entry_point_name: ''
+experiment_id: '707578369122819239'
+lifecycle_stage: active
+run_id: fa2a160401ac4bd6b3ed800b7e441c28
+run_name: Random Forest_Simple_20240529
+run_uuid: fa2a160401ac4bd6b3ed800b7e441c28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717011665239
+status: 3
+tags: []
+user_id: vesna
