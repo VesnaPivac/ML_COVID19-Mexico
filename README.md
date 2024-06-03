@@ -66,6 +66,27 @@ Un valor alto de *Recall* asegura que la mayoría de los casos positivos sean id
 
 El resto de las métricas de calidad del modelo (F1-Score, ROC-AUC, AUC-PR) están alineadas con las métricas de impacto de la solución a nivel nacional, ya que todas contribuyen a mejorar el rendimiento del modelo, lo que se traduce en un mejor funcionamiento del sistema de salud. Sin embargo, cada métrica también tiene un aporte específico. Un alto *F1-Score* indica un buen equilibrio entre precisión y recall, mejorando la confianza en las decisiones clínicas y asegurando que los recursos se dirijan efectivamente a los pacientes en mayor riesgo sin sobrecargar el sistema de salud con falsos positivos. El *ROC-AUC* demuestra la capacidad del modelo para distinguir entre pacientes fallecidos y no fallecidos en un rango amplio de umbrales, facilitando la flexibilidad en la toma de decisiones clínicas y permitiendo ajustar umbrales según la disponibilidad de recursos y la situación epidemiológica. Un alto *AUC-PR* es especialmente importante en contextos de desbalance de clases, asegurando que el modelo sea robusto en detectar los casos críticos, lo cual es vital para priorizar la atención y recursos a los pacientes más vulnerables.
 
+# Resultados
+
+## Evaluación de Modelos
+- Precision: Es alta (0.61) en Gradient Boosting, lo cual indica que cuando predice que un paciente falleció, es correcto el 61% de las veces.
+- Recall: Es bajo en todos los modelos, siendo el máximo 0.11 con Gradient Boosting. Esto indica que de los pacientes que realmente fallecieron, solo se identificaron correctamente el 11% en promedio.
+- F1-score: Muestra una mejora en Gradient Boosting (0.19), aunque aún es relativamente bajo.
+- ROC-AUC: Todos los modelos tienen un rendimiento alto (0.98), lo cual indica que son buenos para discriminar entre las dos clases.
+- Accuracy: Es alto en todos los modelos (0.99), pero esto puede ser engañoso en problemas de desequilibrio de clases como el que tenemos, donde la clase positiva (fallecimiento) es mucho menor que la negativa (supervivencia).
+
+## Mejor modelo 
+Gradient Boosting tiene la mejor precisión y otras métricas, su recall en la clase positiva (fallecimiento de pacientes) sigue siendo bajo. Esto significa que el modelo tiende a perder la identificación de casos críticos. Dado el tema delicado de la predicción de fallecimiento de pacientes, es crucial maximizar la sensibilidad del modelo en identificar correctamente estos casos. Un modelo con un recall bajo en esta clase puede tener consecuencias graves en la toma de decisiones médicas y en la asignación de recursos. 
+Considerando que hemos evaluado varios modelos y técnicas, es esencial seguir explorando otras alternativas. Esto incluye probar nuevos modelos, ajustar hiperparámetros y aplicar métodos específicos para abordar el desbalanceo de clases. Esta exploración adicional es crucial para mejorar el rendimiento del modelo, especialmente en términos de sensibilidad o recall en la clase de fallecimiento. Esto nos permitirá identificar correctamente los casos críticos donde un paciente realmente fallecerá, lo cual es de suma importancia en nuestro contexto.
+
+## Modelo final para producción
+En resumen, aunque Gradient Boosting tenga el mejor desempeño entre los modelos evaluados hasta ahora, su bajo recall en la clase de fallecimiento y la importancia clínica del problema sugieren la necesidad de seguir explorando y mejorando el modelo antes de considerarlo apto para producción en un contexto tan sensible.
+
+El modelo de Gradient Boosting tiene una buena precisión pero un recall bajo, es decir, identifica correctamente los casos positivos pero deja muchos sin identificar. En un problema en el que la desicion a tomar involucra algo tan delicado como diagnosticos, enfermedades y salud de las personas es crucial tener un balance entre precision y recall. En la literatura, es común encontrar problemas similares en términos de desafíos de desequilibrio de clases y la necesidad de equilibrar precision y recall para casos de interés como el fallecimiento de pacientes, de hecho existen diversos metodos que se pueden aplicar para poder tratar de solucionar nuestro problemas del desvalanceo de clases o simplemente para encontrar un mejor modelo.
+
+
+---
+
 ## Repositorios
 - [Github](https://github.com/VesnaPivac/ML_COVID19-Mexico)
 - [Dagshub](https://dagshub.com/VesnaPivac/ML_COVID19-Mexico)
